@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-indent: 5cm;
+    }
+
+    p:hover{
+        color: rgb(127, 56, 68);
+        text-decoration: underline black;
+    }
+</style>
+
+<body>
+    <h1>ADICIONANDO AUDIO</h1>
+    <h2>ANIME MUSICA</h2>
+    <p>PROMISE NEVERLAND<audio src="midia/The_Promised_Neverland_OST_-_Isabella’s_Lullaby[EagleConverter.com].mp3" controls autoplay></audio>
+    <p>JINGOKURAKU<audio src="midia/01.Ｗ●ＲＫ.mp3" controls></audio>
+    <p>CHANSAWMAN<audio src="midia/Chainsaw-Man-Opening.mp3" controls></audio>
+
+    <!-- exemplo de meter audio/ lembrando o source vai carregar primeiro o que esta em cima e assim sucivamente -->
+    <audio>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav"> <!--arquivos wav sao muito pesados para o site (nao utilizar supostamente)-->
+    </audio>
+
+</body>
+</html>

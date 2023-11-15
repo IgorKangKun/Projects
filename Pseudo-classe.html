@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 
+
+        SELETORES PERSONALIZADOS
+    # = ID
+    . = CLASS
+    : = pseudo-class
+    :: = pseudo-element
+    > = childrean 
+    
+    */
+    div{
+        display: inline-block;
+        text-align: center;
+        border-radius: 15px;
+        border: 1px solid black;
+        height:200px ;
+        width: 200px;
+
+    }
+    div:hover{
+       
+       border-radius: 15px;
+    } 
+    .primeiro:hover{
+        background-color: red;
+        
+    }
+
+    .segundo:hover{
+        background-color: blue;
+    }
+
+    .terceiro:hover{
+        background-color: orange;
+    }
+
+    .primeiro:active{
+        display: none;
+        
+    }
+
+    .segundo:active{
+        display: none;
+    }
+
+    .terceiro:active{
+        display: none;
+    }
+
+
+</style>
+<body>
+   
+    <div class="primeiro">basquete</div>
+    <div class="segundo">futebol</div>
+    <div class="terceiro">volei</div>
+    
+</body>
+</html>

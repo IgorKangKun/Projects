@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/*
+    em HTML o id = # em CSS
+    em HTML a Class = . em CSS
+
+*/
+
+body {
+    background-color: grey;
+    font: normal 13px arial, helvetica, sans-serif;
+}
+h1{
+    color: rgb(76, 76, 241); 
+}
+
+h2 {
+    text-indent: 20px;
+    color: rgb(76, 76, 241);
+}
+
+h1#Principal{
+    text-align: center;
+    color: rgb(15, 15, 233);
+
+}
+
+p {
+    text-indent: 25px;
+
+}
+
+.basico {
+
+    color: rgba(0, 128, 0, 0.601);
+
+}
+
+.intermediario {
+    color: rgba(255, 255, 0, 0.6);
+
+}
+
+.avancado {
+    color: rgba(255, 0, 0, 0.604);
+}
+
+.destacado {
+    background-color: rgba(255, 255, 255, 0.567);
+}
+
